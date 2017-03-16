@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/img.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+    <script src="js/loading.js"></script>
+  </head>
+    <body ng-app="starter">
+     <ion-pane>
+        <div class="bar bar-header bar-positive">
+          <h1 class="title">XL Canteen</h1>
+           <button class="button button-clear button-light" >Close</button>
+        </div>
+         <ion-content>
+            <div class="card">
+              <div class="item item-text-wrap"><img src="img/complete.png">
+                <div class="menus">Order Completion
+            </div>
+              </div>
+                </div>
+             <button class="button button-full button-positive" style="opacity:0.7";><img src="img/telpon.png">
+              From : 089234890092
+             </button>
+             <div class="container">
+                <img src="img/nasi-goreng2.jpg" style="width: 100%;">
+                    <div class="card2">
+                        <div class="item item-text-wrap">
+                            <div class="menus">Nasi Goreng</br>Rp 20.000</br>Jumlah : 2
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="container">
+               <div class="card2">
+                    <div class="item item-text-wrap">
+                            <div class="menus">Total Rp 20.000
+                        </div>
+                    </div>
+               </div>
+              </div>
+              <button class="button button-full button-calm" onclick="javascript:location.replace('completeorder.html')"">
+            Order Complete
+            </button>
+  </ion-content>
+   <div class="tabs tabs-icon-top">
+  <a class="tab-item">
+  <i class="icon ion-star"  style="color:blue;" onclick="javascript:location.replace('index.html')""></i>
+    Menu
+  </a>
+  <a class="tab-item">
+     <i class="icon ion-bag" style="color:blue;" onclick="javascript:location.replace('incomingorder.html')""></i>
+    Order
+  </a>
+  <a class="tab-item">
+    <i class="icon ion-person-stalker" style="color:blue;" onclick="javascript:location.replace('statusorder.html')""></i>
+    Confirmation
+  </a>
+</div>
+</ion-pane>
+</body>
+</html>

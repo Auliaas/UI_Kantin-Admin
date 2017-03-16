@@ -1,0 +1,54 @@
+.pane{
+	 background: url('../img/bg.jpg') repeat center center fixed;
+}
+.card
+{
+	margin-top:2cm;
+	text-align: center;
+	opacity: 0.8;
+	box-shadow: 0px 5px 5px grey;
+}
+.card2
+{
+	text-align: left;
+	opacity: 0.8;
+	box-shadow: 0px 5px 5px grey;
+}
+.menus
+{
+	margin-top: 0.2cm;
+	font-family: georgia;
+}
+.container {
+position:relative;
+text-align: center;
+margin-top: 1cm;
+margin: 5px;
+border: 2px solid #45db63;
+float: center;
+}
+.container2 {
+position:relative;
+text-align: center;
+margin-top: 1cm;
+}
+.textbox:hover {
+opacity:1;
+}
+.text {
+padding-top: 50px;
+color: white;
+}
+.c2{
+	width: 100%;
+}
+.ion-checkbox{
+	opacity:0.10;
+}
+.posisib
+{
+	margin-left: 0.15cm;
+}
+.addmenu{
+	margin-bottom: 0.12cm;
+}

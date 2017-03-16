@@ -1,0 +1,31 @@
+.animasi {
+    width: 50px;
+    height: 50px;
+    background: url('../img/order1.png');
+    position: relative;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    -webkit-animation-delay: -2s; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+    animation-delay: -2s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 280px;}
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 280px;}
+}
+.popver
+{
+    
+    text-align: center;
+    height: 50px;
+    color:green;
+}
+.sukses{
+    margin-left: 0.2;
+}
